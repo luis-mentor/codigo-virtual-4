@@ -1,0 +1,7 @@
+1. Pagina de React añadir un enlace<a> de IR A MIS CURSOS.html
+
+2. Crear una seccion de Introducción, debajo de profesores del curso, con
+    su respectivo titulo, descripcion (parrafo).
+3. Lo mismo para conceptos básicos
+
+4. Crear lo mismo con ANGULAR y NODE JS
