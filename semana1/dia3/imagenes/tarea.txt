@@ -4,4 +4,4 @@
     su respectivo titulo, descripcion (parrafo).
 3. Lo mismo para conceptos básicos
 
-4. Crear lo mismo con ANGULAR y NODE JS
+4. Crear lo mismo con los cursos ANGULAR y NODE JS
