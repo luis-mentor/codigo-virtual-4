@@ -12,8 +12,8 @@
     </header>
     <main>
         <section>
-            <a href="">Iniciar Sesión</a>
-            <a href="">Registrarse</a>
+            <a href="./iniciarsesion.html">Iniciar Sesión</a>
+            <a href="#">Registrarse</a>
         </section>
     </main>
 
@@ -21,40 +21,55 @@
         <table>
             <tr>
                 <td>
-                    <label for=""">Nombre Completo:</label>
+                    <label for="inputNombreCompleto">Nombre Completo:</label>
                 </td>
                 <td>
-                    <input type="text">
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <label for=""">Apellidos:</label>
+                    <input type="text" id="inputNombreCompleto">
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <label for=""">Edad:</label>
+                    <label for="inputApellidos">Apellidos:</label>
+                </td>
+                <td>
+                    <input type="text" id="inputApellidos">
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <label for=""">Fecha Nacimiento:</label>
+                    <label for="inputEdad">Edad:</label>
+                </td>
+                <td>
+                    <input type="number" id="inputEdad">
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <label for=""">Correo:</label>
+                    <label for="inputFechaNacimiento">Fecha Nacimiento:</label>
+                </td>
+                <td>
+                    <input type="date" id="inputFechaNacimiento">
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <label for=""">Contraseña:</label>
+                    <label for="inputCorreo">Correo:</label>
+                </td>
+                <td>
+                    <input type="email" value="@gmail.com" id="inputCorreo" placeholder="Ingrese correo">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputEdad">Contraseña:</label>
+                </td>
+                <td>
+                    <input type="password" id="inputPassword">
                 </td>
             </tr>
 
@@ -62,12 +77,32 @@
                 <td>
                     <label for=""">Sexo:</label>
                 </td>
+                <td>
+                    <label for=" inputM">M</label>
+                    <input type="radio" id="inputM">
+
+                    <label for="inputF">F</label>
+                    <input type="radio" id="inputF">
+
+                    <label for="inputOtro">Otro</label>
+                    <input type="radio" id="inputOtro">
+                </td>
             </tr>
 
             <tr>
                 <td>
                     <label for=""">Idiomas:</label>
                 </td>
+                <td>
+                    <label for=" inputIngles">Ingles</label>
+                    <input type="checkbox" id="inputIngles" checked>
+
+                    <label for="inputEspañol">Español</label>
+                    <input type="checkbox" id="inputEspañol">
+
+                    <label for="inputPortugues">Portugues</label>
+                    <input type="checkbox" id="inputPortugues">
+                </td>
             </tr>
 
 
@@ -75,23 +110,42 @@
                 <td>
                     <label for=""">Idiomas:</label>
                 </td>
-            </tr>
-
-            <tr>
                 <td>
-                    <label for=""">Descripción:</label>
+                    <select name="" id=" slcIdiomas">
+                        <option value=""></option>
+                        <option>Nivel básico</option>
+                        <option>Nivel Intermedio</option>
+                        <option>Nivel Avanzado</option>
+                        </select>
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <label for=""">Ingrese su CV:</label>
+                    <label for="txtAreaDescripcion">Descripción:</label>
+                </td>
+                <td>
+                    <textarea id="txtAreaDescripcion" cols="30" rows="10">
+
+                    </textarea>
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <label for=""">Color Base:</label>
+                    <label for="inputIngreseCV">Ingrese su CV:</label>
+                </td>
+                <td>
+                    <input type="file" id="inputIngreseCV">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputColor">Color Base:</label>
+                </td>
+                <td>
+                    <input type="color" id="inputColor">
                 </td>
             </tr>
 
