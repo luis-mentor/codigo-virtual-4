@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Configuraciones de Tablas</h2>
+            <table border="1" bgcolor="#1AEB72"
+                backgrund="https://www.google.com/search?q=angular+fondo&tbm=isch&ved=2ahUKEwjKlcfojc7rAhWRD7kGHUPTBHwQ2-cCegQIABAA&oq=angular+fondo&gs_lcp=CgNpbWcQA1AAWABgpakBaABwAHgAgAEAiAEAkgEAmAEAqgELZ3dzLXdpei1pbWc&sclient=img&ei=_HdRX8qnA5Gf5OUPw6aT4Ac&bih=653&biw=555#imgrc=WWpCeSc-R2p6RM"
+                bordercolor="red"
+                cellpadding="10" >
+                <thead>
+                    <tr>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Luis</td>
+                        <td>Mendoza</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Rowspan t Colspan</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duración</th>
+                        <th>Profesor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- rowspan: solo ocupa mas columnas -->
+                        <!-- colspan: solo ocupa mas filas -->
+                        <td rowspan="3">Algoritmos</td>
+                        <td colspan="2">03 meses</td>
+                        <!-- <td>Jose Soto</td> -->
+                    </tr>
+                    <tr>
+                        <td>Arduino</td>
+                        <td>6 meses</td>
+                        <!-- <td>Jorge Garnica</td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
