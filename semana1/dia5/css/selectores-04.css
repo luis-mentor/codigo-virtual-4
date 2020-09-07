@@ -1,0 +1,31 @@
+
+/* nth-child: Obedece a 01 posicion, según el número que se pasa como parámetro */
+/* Obedece siempre y cuando estén en el mismo nivel o sean hermanos */
+li:nth-child(2){
+    color:blue;
+}
+/* Cambiar el primer elemento */
+li:first-child{
+    color:red;
+}
+/* Cambiar el ultimo elemento */
+li:last-child{
+    color:salmon;
+}
+
+/* Para manejar pares e impares */
+
+tbody tr:nth-child(odd){
+    background: purple;
+}
+
+tbody tr:nth-child(even){
+    background: red;
+}
+
+/* tbody tr{
+    background:royalblue;
+} */
+thead{
+    background: seagreen;
+}
