@@ -1,0 +1,30 @@
+header{
+    background: gray;
+}
+section{
+    background: yellow;
+}
+h1,h2,h3{
+    color:red;
+}
+/* Seleccionamos hijos sin importar el nivel */
+.anuncios .textoAnuncio{
+    background:chocolate;
+    color: white;
+}
+
+.tarjeta{
+    background:royalblue;
+}
+/* A todos los .cuerpo-tarjeta que estén dentro de un .tarjeta */
+.tajeta > .cuerpo-tarjeta{
+    background:salmon;
+}
+
+.tarjeta > .pie-pagina-tarjeta{
+    background: green;
+}
+
+.tarjeta > .cuerpo-tarjeta > P{
+    background: hotpink;
+}
