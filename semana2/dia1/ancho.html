@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ancho.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <span>Link 1</span>|
+        <span>Link 2</span>|
+        <span>Link 3</span>|
+    </header>
+
+    <!-- 
+    Los elementos se dividen en 2 en cuantoa a su ancho
+    * Block -> De bloque
+    * inline -> en Linea
+Todos los elementos estructurales son de bloque: Nav, aside, footer, header, section, div,nav
+¿Que significa? 
+-> Que tienen el ancho del 100% de su padre directo
+-> Su altura es de acuerdo a su contenido
+
+->OJO: Tanto el ancho como el alto se pueden modificar
+* Todos los elemenetos inline ocupan en ancho y alto DE ACUERDO A SU CONTENIDO
+-> OJO: No se puede alterar ni el ALTO ni el ANCHO de un elemento INLINE
+ -->
+    <main class="main">
+        <section class="main__imagenes">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" 
+            width="200" alt="">
+            <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/288_Sass-512.png" 
+            width="200" alt="">
+        </section>
+    </main>
+    <aside>ALGO AQUI</aside>
+    <span>ALGO AQUI</span>
+
+</body>
+
+</html>

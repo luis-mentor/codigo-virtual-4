@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    background-color: #444;
+    color: #eee;
+}
+.header{
+    background-color: #666;
+    /*height: Atura de un elemento*/
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.header span{
+    background-color: #fff;
+    color:#444;
+
+}
+.main{
+    background-color: yellow;
+    width: 800px;
+}
+
+
+
+
+
+
+
