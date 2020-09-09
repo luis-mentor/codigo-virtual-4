@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.formulario{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    /*box-shadow: Sombras, el primer parametro es el color, 
+    el segundo arriba o abajo y el tercero es derecha e izquiera
+    acepta negativo y postivo*/
+    box-shadow: #bbb 0px 0px 5px;
+    border-radius: 15px;
+}
+.formulario__input, .formulario__mensaje{
+    width: 100%;
+}
