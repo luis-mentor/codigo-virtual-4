@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion1{
+    height: 100px;
+    /*Color de fondo:*/
+    background-color: #444;
+
+}
+.seccion2{
+    height: 200px;
+    background-image: url(https://www.publicdomainpictures.net/pictures/250000/nahled/clouds-background-005.jpg);
+    /*Controlar la repetición de la imagen*/
+    background-repeat: no-repeat;
+    /*Controla la posición de la imagen: Center, left, right*/
+    background-position: center;
+    /**/
+    background-size: cover;
+
+
+}
+.seccion2__titulo{
+    height: 200px;
+    background-color: rgba(40, 40, 40, 0.5);
+    color: white;
+}
+.seccion3{
+
+    background-image: linear-gradient();
+}
+
+
+
+
+

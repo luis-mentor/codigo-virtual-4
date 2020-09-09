@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario{
+    border: 2px solid #530780;
+    width: 500px;
+    height: 600px;
+    /*Truco para centrar un elemento de BLOQUE (un formulario es de BLOQUE)*/
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.formulario__submit{
+    border: none;
+    padding: 10px;
+    background-color: #530780;
+    color: white;
+    margin-top: 10px;
+    border-bottom:  4px solid #25023a;
+
+}
+
+.formulario__input{
+    /*Aqui está ocupando el ancho de 100% del padre (formulario)*/
+    width: 100%;
+    padding: 5px 6px;
+    border: 10px;
+    /*OUTLINE: Es el borde del borde, es el 2do borde exterior sin embargo no es 
+    tomado en cuenta para calcular el ancho ni el alto de un elemento, siempre
+    esta flotando   */
+    outline: none;
+    border-bottom: 1px solid #e5b8ff;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: center left;
+}
