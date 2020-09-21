@@ -1,0 +1,36 @@
+/*  ALINEACIÓN */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #444; */
+}
+.main{
+    height: 400px;
+    display: flex;
+    border: 1px solid blue;
+    /*Justify-content: center --> Alinea los elementos en el eje principal
+    ¿Cual es el eje Principal?
+    - Cuando "flex-direction: row" el eje principal es X
+    - Cuando "flex-direction: column" el eje principal es Y    */
+    /*align-item: alinea los elementos en el eje secundario*/
+    justify-content: space-evenly;
+    /* align-items: flex end: es decir al final, abajo */
+    align-items: center;
+    /* Ambas propiedades están siempre cuando hay un "display: flex;" */
+}
+.main_formulario{
+    width: 600px;
+    /* height: 100px; */
+    border: 1px solid red;
+}
+
+
+
+
+
+
+

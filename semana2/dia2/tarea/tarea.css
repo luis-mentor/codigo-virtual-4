@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+}
+.formulario{
+    width: 400px;
+    height: 500px;
+    padding: 50px;
+    border-color: violet;
+    border: 1px solid ;
+}
+
+.formulario__titulo{
+    color: #530780;
+    margin-bottom: 15px;
+}
+.formulario__subtitulo{
+    margin-bottom: 15px;
+    color: rgba(40, 40, 40, 0.5);
+}
+.formulario__label--email{
+    color: #530780;
+}
+
+.formulario__input--email{
+    width: 100%;
+    height: 30px;
+    background-color: #fcf6ff;
+    /* margin-top: 10px; */
+    border: 20px solid violet;
+    background-size: 20px 20px;
+    background-position: center left;
+}
+.formulario__label--contraseña{
+    color: #530780;
+
+}
+.formulario__input--contraseña{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 30px;
+    border: 20px solid violet;
+    background-size: 20px 20px;
+    background-position: center left;
+    /* border-left-width: 10px solid black; */
+}
+.button__olvidaste{
+    border: none;
+    margin-left: 12px;
+    background-color: white;
+}
+.button__ingresar{
+    margin-top: 100px;
+    width: 130px;
+    /* border: none; */
+    padding: 10px;
+    background-color: #530780;
+    color: white;
+    border-bottom:  4px solid #25023a;
+    letter-spacing: 1px;
+}
+.button__registrarse{
+    width: 130px;
+    margin-top: 100px;
+    margin-left: 30px;
+    /* border: none; */
+    padding: 10px;
+    background-color: white;
+    color: #530780;
+    border-bottom:  4px solid #25023a;
+    letter-spacing: 1px;
+
+
+}

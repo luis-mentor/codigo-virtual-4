@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card, .card2, .card3, .card4{
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: #888 0px 0px 10px;
+}
+.card:hover{
+    transform: scale(0.9,0.9);
+    box-shadow: #888 0px 0px 10px;
+}
+
+.card2:hover{
+    transform: rotate(10deg);
+    box-shadow: #888 0px 0px 10px;
+}
+.card3:hover{
+    transform: translate(10px, 20px);
+    
+
+
+
+
