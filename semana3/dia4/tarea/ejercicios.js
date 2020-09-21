@@ -90,32 +90,42 @@ let montoAPagar = metrosCubicos * costoPorMCúbico;
 alert(`El monto a pagar es: ${montoAPagar} soles`)
 */
 // Ejercicio 11
+/*
 let consumoEnergia = +prompt("Ingrese el consumo en Kilowatss: ")
 let costoDeKilowatss = 0.5;
 
 let totalPagar = consumoEnergia * costoDeKilowatss;
 alert(`El usuario debe hacer el pago de ${totalPagar} Soles`)
-
-
-/*
-Ejercicio 12:
-
-let articulo = +prompt("Ingresar precio del Articulo ");
-let descuento =  (articulo*0.2);
-let total = (articulo+(articulo*0.15)- descuento);
-
-
-console.log("Descuento : " + descuento);
-console.log("Total a pagar : "+ total);
-
 */
 
-/*
 
-Ejercicio 13:
+//Ejercicio 12:
+/*
+let precioArticulo = +prompt("Ingresar precio del Articulo ");
+let descuento =  (precioArticulo*0.2);
+let precioFinal = (precioArticulo+(precioArticulo*0.15)- descuento);
+
+
+alert(`El precio con descuento es ${precioArticulo - descuento} soles, 
+y el El precio final es ${precioFinal}`);
+*/
+
+//Ejercicio 13:
+/*
 let sueldo = +prompt("Ingresar sueldo semanal: ");
 let ahorrado = ((sueldo*48)*0.15);
 
 console.log("Usted tiene ahorrado en un año : " + ahorrado + " soles");
 
 */
+
+// Ejercicio 14:
+
+
+//Ejercicio 15
+
+
+
+
+// Ejercicio 16:
+let arina
