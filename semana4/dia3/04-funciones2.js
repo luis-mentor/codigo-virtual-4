@@ -7,24 +7,22 @@ function tablaDeMultiplicar(numero) {
     }
 }
 
-// tablaDeMultiplicar(4);
-// console.log("------------");
-// tablaDeMultiplicar(5);
-// console.log("------------");
-// tablaDeMultiplicar(6);
-// console.log("------------");
-// tablaDeMultiplicar(7);
+tablaDeMultiplicar(9);
+console.log("------------");
+tablaDeMultiplicar(80);
+console.log("------------");
+tablaDeMultiplicar(45);
+console.log("------------");
+tablaDeMultiplicar(7);
 
-let arreglo = [5, 8, 4, 7, 2, 3];
 /*
-
-*/
+let arreglo = [5, 8, 4, 7, 2, 3];
 
 for (let c = 0; c < arreglo.length; c++) {
     console.log(`Tabla del ${arreglo[c]}`);
     tablaDeMultiplicar(arreglo[c]);
 }
 
-
+*/
 
 

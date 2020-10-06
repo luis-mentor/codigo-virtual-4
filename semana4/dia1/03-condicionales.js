@@ -8,6 +8,23 @@
 const nro1 = 20;
 const nro2 = 23;
 const nro3 = 10;
+
+if (nro1 > nro2) {
+    if (nro1 > nro3) {
+        console.log(`El número mayor es ${nro1}`);
+    } else {
+        console.log(`El número mayor es ${nro3}`);
+    }
+} else {
+    if (nro2 > nro3) {
+        console.log(`El número mayor es ${nro2}`);
+    } else {
+        console.log(`El número mayor es ${nro3}`);
+    }
+}
+
+
+
 /*
 if (nro1 > nro2 || nro1 > nro3) {
     console.log(`El numero mayor es ${nro1}`);

@@ -13,6 +13,7 @@ for (let c = 0; c < numeros.length; c++) {
         console.log(`${numeros[c]} * ${i} = ${numeros[c] * i}`);
     }
 }
+
 // Otra forma
 /*
 const numeros = [2, 6, 5, 9, 17];
@@ -25,3 +26,12 @@ const numeros = [2, 6, 5, 9, 17];
      }
  }
  */
+
+// Luis
+// const numeros = [1, 2, 3, 4, 5];
+// for(let c=0; c<numeros.length; c++){
+//     console.log("*************");
+//     for(let i=0; i<=10; i++){
+//         console.log(`${numeros[c]} * ${i} = ${numeros[c] * i}`);
+//     }
+// }

@@ -1,5 +1,7 @@
 /**
  * ESTRUCTURA SWITCH - CASE
+ 
+ Un break indica la FINALIZACIÓN DE UN CASE
  */
 let numero = +prompt("Ingresar numero")
 

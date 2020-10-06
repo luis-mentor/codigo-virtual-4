@@ -1,3 +1,9 @@
+/*
+    Realiza un algoritmo para calcular el sueldo semanal de un trabajador, 
+    en base a las horas trabajadas, considerando que despues de las 40 horas
+    cada hora se considera como excedente.
+    */
+
 let sueldoSemanal = 0;
 let horasTrabajadas = 42;
 let pagoPorHoras = 35;

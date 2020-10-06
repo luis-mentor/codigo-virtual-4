@@ -8,18 +8,15 @@ function tablaDel5() {
         console.log(`${c} x 5 = ${c * 5}`);
     }
 }
-
-/**
-    Una función no se EJECUTA hasta que se la invoque
- */
+/** OBS:   Una función no se EJECUTA hasta que se la invoque*/
 tablaDel5();
-/* LA venta de una FUNCION es que se puede llamar N veces */
+/* La ventaja de una FUNCION es que se puede llamar N veces */
 console.log("---");
 tablaDel5();
 console.log("---");
 tablaDel5();
 
-/* Ptra ventaja de una funcion es  */
+/* Otra ventaja de una funcion es  */
 
 
 

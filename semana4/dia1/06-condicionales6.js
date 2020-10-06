@@ -1,4 +1,4 @@
-const num = 52;
+const num = +prompt(`Ingrese un número: `);
 let rpta = " ";
 if (num >= 0) {
     rpta = "Si es positivo";
@@ -6,5 +6,6 @@ if (num >= 0) {
     rpta = "Es negativo";
 }
 console.log(rpta);
+
 
 
